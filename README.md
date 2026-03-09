@@ -1,5 +1,5 @@
 # Finding Similar Items: arXiv Dataset Similarity Detector
-[![Open In Colab](https://colab.research.google.com/github/Silvia-Guidi/Similarity-project/blob/main/Similairty_project.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Silvia-Guidi/Similarity-project/blob/main/Similairty_project.ipynb)
 
 ## Project Overview
 This project implements a high-performance pipeline to detect pairs of similar scientific abstracts within the arXiv Dataset. Given the massive scale of the corpus (approximately 2.97 million papers), the system utilizes MinHash and Locality Sensitive Hashing (LSH) to transform a computationally prohibitive $O(n^2)$ problem into a manageable $O(n)$ task.
