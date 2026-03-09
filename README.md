@@ -25,7 +25,7 @@ The implementation focuses on the semantic content of research abstracts, using 
 The system was evaluated using a scalability benchmark (10k to 100k docs) and a full-scale run on 2.97 million documents
 | Metric | 10k Docs | 25K Docs | 50K Docs | 100k Docs | 2.97M Docs (Full) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **MinHash Time** |19.20s | 44.12s  | 84.51s  |166.31s (~2.5 mins)  |5,443.15s (~1.5 hrs)  |
-| **LSH Time** |0.74s | 3.17s |4.0s| 10.88s| 321.78s (~5 mins) |
-| **Candidate Pairs** | 60 | 352 |1 151 | 3 274 | 113 952 |
-| **Empirical Precision** |68.33% | 67.00% | 64.00%  | 65.00%  | 59.00%|
+| **MinHash Time** |19.20s | 44.12s  | 84.51s  |166.31s (~2.5 mins)  |5213.50s (~1.5 hrs)  |
+| **LSH Time** |0.74s | 3.17s |4.0s| 10.88s| 272.88s (~5 mins) |
+| **Candidate Pairs** | 60 | 352 |1 151 | 3 274 | 113 982 |
+| **Empirical Precision** |68.33% | 67.00% | 64.00%  | 65.00%  | 63.00%|
